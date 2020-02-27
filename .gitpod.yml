@@ -2,6 +2,6 @@ image: gitpod/workspace-mysql
 
 tasks:
 - command:  npm install --save mysql
-- command:  mysql
-- command:  CREATE USER 'yourusername'@'localhost' IDENTIFIED BY 'yourpassword';
+- command:  mysql &&
+            CREATE USER 'yourusername'@'localhost' IDENTIFIED BY 'yourpassword';
 
